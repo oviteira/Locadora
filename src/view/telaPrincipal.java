@@ -18,6 +18,7 @@ public class telaPrincipal extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMAlteraValor = new javax.swing.JMenuItem();
+        jMSair = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Locadora de Veículos");
@@ -93,6 +94,14 @@ public class telaPrincipal extends javax.swing.JFrame {
         });
         jMenu1.add(jMAlteraValor);
 
+        jMSair.setText("Sair");
+        jMSair.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMSairActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jMSair);
+
         jMenuBar1.add(jMenu1);
 
         setJMenuBar(jMenuBar1);
@@ -163,6 +172,10 @@ public class telaPrincipal extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_jBReservaAluguelActionPerformed
 
+    private void jMSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMSairActionPerformed
+        dispose();
+    }//GEN-LAST:event_jMSairActionPerformed
+
     public static void main(String args[]) {
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
@@ -196,6 +209,7 @@ public class telaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton jBCadCliente;
     private javax.swing.JButton jBReservaAluguel;
     private javax.swing.JMenuItem jMAlteraValor;
+    private javax.swing.JMenuItem jMSair;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;

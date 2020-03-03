@@ -145,7 +145,7 @@ public class telaReservaAluguel extends javax.swing.JFrame {
                 {null, null, null, null, null}
             },
             new String [] {
-                "ID", "Veíículo", "Agência", "Alugado", "Reservado"
+                "ID", "Veículo", "Agência", "Alugado", "Reservado"
             }
         ) {
             boolean[] canEdit = new boolean [] {
